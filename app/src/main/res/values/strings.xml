@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Bencolites Pannel</string>
+    <string-array name="branch">
+        <item>Select your branch</item>
+        <item>Computer Science and Engineering</item>
+        <item>Chemical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Electronics and Communication Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Information and Tchnology</item>
+        <item>Mechanical Engineering</item>
+    </string-array>
+    <string-array name="employ_type">
+        <item>
+        </item>
+        <item>Full-time</item>
+        <item>Part-time</item>
+        <item>Internship</item>
+        <item>Trainee</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

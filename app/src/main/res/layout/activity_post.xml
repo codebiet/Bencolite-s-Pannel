@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="@drawable/gradient"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTitle"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:text="Create Post"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            android:gravity="end"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:textSize="18dp"
+            android:id="@+id/btnPost"
+            android:textColor="@android:color/darker_gray"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/userimg"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_account_circle_24"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yash Chaturvedi"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            android:id="@+id/username"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/insertImage"
+                android:layout_gravity="end"
+                android:src="@drawable/addimage"
+                android:layout_marginEnd="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="@font/bold"
+                android:text="Add Image"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="What's on your mind....."
+                android:gravity="top"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:scrollbars="vertical"
+                android:nestedScrollingEnabled="true"
+                android:background="@android:color/transparent"
+                android:inputType="textMultiLine"
+                android:id="@+id/post_text"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:visibility="gone"
+                android:id="@+id/imagepost"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@mipmap/ic_launcher"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

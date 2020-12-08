@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_post"
+        android:title="My Posts"
+        android:icon="@drawable/feed"
+        android:iconTint="@color/com_facebook_blue"/>
+    <item android:id="@+id/menu_liked"
+        android:title="Liked Posts"
+        android:icon="@drawable/ic_baseline_thumb_up_24"
+        android:iconTint="@color/com_facebook_blue"/>
+    <item android:id="@+id/menu_logout"
+        android:title="Logout"
+        android:icon="@drawable/logout"
+        android:iconTint="@color/com_facebook_blue"/>
+</menu>

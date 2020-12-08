@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:background="@color/com_facebook_blue"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgDrawerprofile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:civ_border_width="3dp"
+        app:civ_border_color="@color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GHaT"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/txtDrawerName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/txtDrawerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ganga Heritage and Tributaries"
+        android:textSize="16dp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
